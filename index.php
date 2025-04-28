@@ -1,4 +1,6 @@
 <?php
-echo "helllo world"
 
-?>
+// Disallow direct access
+if (!defined('OC')) {
+    exit('Access denied');
+}
