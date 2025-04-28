@@ -18,7 +18,7 @@
             <id>stempeluhr</id>
             <name>Stempeluhr</name>
             <route>stempeluhr.page.index</route>
-            <icon>img/app.svg</icon>
+            <icon>app.svg</icon>
         </navigation>
     </navigations>
 </info>
