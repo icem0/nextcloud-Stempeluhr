@@ -1,4 +1,9 @@
 <div id="app">
-    <h1>Hello World!</h1>
-    <p>Willkommen in deiner ersten selbstgebauten Nextcloud-App 🎉</p>
+    <h1>Stempeluhr</h1>
+    <p>Hier kannst du deine Zeit stempeln!</p>
+
+    <form action="/apps/stempeluhr/stempel" method="post">
+        <?php script('core', 'csrf'); ?>
+        <button type="submit">Stempeln</button>
+    </form>
 </div>
