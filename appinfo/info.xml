@@ -1,27 +1,24 @@
 <?xml version="1.0"?>
 <info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
-	<id>stempeluhr</id>
-	<name>Stempeluhr</name>
-	<summary>Stempeluhr</summary>
-	<description>Stempeluhr</description>
-	<version>1.0.0</version>
-	<licence>agpl</licence>
-	<author mail="icem0@online.de" homepage="">Icem0</author>
-	<namespace>Stempeluhr</namespace>
-	<category>office</category>
-	<bugs>https://github.com/icem0/nextcloud-Stempeluhr/issues</bugs>
-	<dependencies>
-		<nextcloud min-version="29" max-version="29"/>
-	</dependencies>
-	<navigations>
-    <navigation>
-        <id>stempeluhr</id>
-        <name>Stempeluhr</name>
-        <route>stempeluhr.page.index</route>
-        <icon>img/app.svg</icon>
-    </navigation>
-	</navigations>
-
-
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>stempeluhr</id>
+    <name>Stempeluhr</name>
+    <summary>Eine einfache Stempeluhr-App</summary>
+    <description>Minimale Nextcloud-App zum Aufbau</description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="dein-email@example.com">Dein Name</author>
+    <namespace>Stempeluhr</namespace>
+    <category>office</category>
+    <dependencies>
+        <nextcloud min-version="26" max-version="29"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <id>stempeluhr</id>
+            <name>Stempeluhr</name>
+            <route>stempeluhr.page.index</route>
+            <icon>img/app.svg</icon>
+        </navigation>
+    </navigations>
 </info>
