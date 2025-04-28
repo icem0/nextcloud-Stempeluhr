@@ -12,6 +12,4 @@
     <nextcloud min-version="28" max-version="28" />
   </dependencies>
 </info>
-<settings>
-	<settingsfile>settings.php</settingsfile>
-  </settings>
+	
