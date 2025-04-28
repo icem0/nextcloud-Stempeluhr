@@ -1,4 +1,4 @@
-<div id="app">
-    <h1>Willkommen bei der Stempeluhr!</h1>
-    <p>Hier kannst du deine Arbeitszeiten stempeln.</p>
+<div id="app" class="section">
+    <h1>Hello World</h1>
+    <p>Willkommen bei deiner Stempeluhr-App!</p>
 </div>

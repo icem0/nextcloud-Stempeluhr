@@ -1,29 +1,19 @@
 <?php
-
-declare(strict_types=1);
-
 namespace OCA\Stempeluhr\Controller;
 
-use OCA\Stempeluhr\AppInfo\Application;
 use OCP\AppFramework\Controller;
-use OCP\AppFramework\Http\Attribute\FrontpageRoute;
-use OCP\AppFramework\Http\Attribute\NoAdminRequired;
-use OCP\AppFramework\Http\Attribute\NoCSRFRequired;
-use OCP\AppFramework\Http\Attribute\OpenAPI;
+use OCP\IRequest;
 use OCP\AppFramework\Http\TemplateResponse;
 
-/**
- * @psalm-suppress UnusedClass
- */
 class PageController extends Controller {
-	#[NoCSRFRequired]
-	#[NoAdminRequired]
-	#[OpenAPI(OpenAPI::SCOPE_IGNORE)]
-	#[FrontpageRoute(verb: 'GET', url: '/')]
-	public function index(): TemplateResponse {
-		return new TemplateResponse(
-			Application::APP_ID,
-			'index',
-		);
-	}
+    public function __construct(string $AppName, IRequest $request) {
+        parent::__construct($AppName, $request);
+    }
+
+    /**
+     * @NoAdminRequired
+     */
+    public function index(): TemplateResponse {
+        return new TemplateResponse('stempeluhr', 'main');
+    }
 }
