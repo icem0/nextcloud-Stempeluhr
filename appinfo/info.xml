@@ -19,7 +19,7 @@
 			<id>stempeluhr</id>
 			<name>Stempeluhr</name>
 			<route>stempeluhr.page.index</route>
-			<icon>app.svg</icon>
+			<icon>img/app.svg</icon>
 			<type>link</type>
 		</navigation>
 	</navigations>
