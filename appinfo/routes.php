@@ -2,9 +2,6 @@
 
 namespace OCA\Stempeluhr\AppInfo;
 
-use OCP\AppFramework\Bootstrap\IBootContext;
-use OCP\AppFramework\Bootstrap\IRegistrationContext;
-
 return [
     'routes' => [
         [
