@@ -1,24 +1,17 @@
 <?xml version="1.0"?>
-<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
-    <id>stempeluhr</id>
-    <name>Stempeluhr</name>
-    <summary>Eine einfache Stempeluhr-App</summary>
-    <description>Minimale Nextcloud-App zum Aufbau</description>
-    <version>0.0.1</version>
-    <licence>agpl</licence>
-    <author mail="dein-email@example.com">Dein Name</author>
-    <namespace>Stempeluhr</namespace>
-    <category>office</category>
-    <dependencies>
-        <nextcloud min-version="26" max-version="29"/>
-    </dependencies>
-    <navigations>
-        <navigation>
-            <id>stempeluhr</id>
-            <name>Stempeluhr</name>
-            <route>stempeluhr.page.index</route>
-            <icon>app.svg</icon>
-        </navigation>
-    </navigations>
+<info>
+  <id>stempeluhr</id>
+  <name>Stempeluhr</name>
+  <description>Zeiterfassung für Mitarbeiter</description>
+  <version>1.0.0</version>
+  <licence>AGPL</licence>
+  <author>Dein Name</author>
+  <namespace>Stempeluhr</namespace>
+  <category>tools</category>
+  <dependencies>
+    <nextcloud min-version="28" max-version="28" />
+  </dependencies>
 </info>
+<settings>
+	<settingsfile>settings.php</settingsfile>
+  </settings>
