@@ -11,4 +11,5 @@
     <dependencies>
         <nextcloud min-version="28" max-version="31" />
     </dependencies>
+    <icon>app.svg</icon>
 </info>
