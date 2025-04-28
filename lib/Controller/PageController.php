@@ -14,6 +14,7 @@ class PageController extends Controller {
 
     /**
      * @NoAdminRequired
+     * @CSRFExemption
      */
     public function index(): TemplateResponse {
         return new TemplateResponse('stempeluhr', 'main');
