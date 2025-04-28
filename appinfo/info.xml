@@ -2,14 +2,14 @@
 <info>
     <id>stempeluhr</id>
     <name>Stempeluhr</name>
-    <description>Zeiterfassung für Mitarbeiter</description>
+    <description>Zeiterfassung</description>
     <version>1.0.0</version>
     <licence>AGPL</licence>
-    <author>Dein Name</author>
+    <author>Matthias Kern</author>
     <namespace>Stempeluhr</namespace>
-    <category>tools</category>
+    <category>productivity</category>
     <dependencies>
         <nextcloud min-version="28" max-version="31" />
     </dependencies>
-    <icon>app.svg</icon>
+    <icon>img/app.svg</icon>
 </info>
