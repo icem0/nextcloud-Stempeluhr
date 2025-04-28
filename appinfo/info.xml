@@ -1,15 +1,11 @@
-<?xml version="1.0"?>
-<info>
-  <id>stempeluhr</id>
-  <name>Stempeluhr</name>
-  <description>Zeiterfassung für Mitarbeiter</description>
-  <version>1.0.0</version>
-  <licence>AGPL</licence>
-  <author>Dein Name</author>
-  <namespace>Stempeluhr</namespace>
-  <category>tools</category>
-  <dependencies>
+<id>stempeluhr</id>
+<name>Stempeluhr</name>
+<description>Zeiterfassung für Mitarbeiter</description>
+<version>1.0.0</version>
+<licence>AGPL</licence>
+<author>Dein Name</author>
+<namespace>Stempeluhr</namespace>
+<category>tools</category>
+<dependencies>
     <nextcloud min-version="28" max-version="28" />
-  </dependencies>
-</info>
-	
+</dependencies>
